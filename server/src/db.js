@@ -15,6 +15,7 @@ const sequelize = new Sequelize({
     logging: console.log,
 });
 
+
 // 测试连接
 sequelize
     .authenticate()
